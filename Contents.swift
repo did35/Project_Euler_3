@@ -19,7 +19,6 @@ func findFactors(a: Int) -> Bool {
 }
 
 func primeFactors(n: Int) -> [Int] {
-    let n = n
     for divisor in 2..<n {
         if n % divisor == 0 {
             let bool = findFactors(a: divisor)
